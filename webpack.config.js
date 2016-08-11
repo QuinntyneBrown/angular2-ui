@@ -2,7 +2,7 @@
     entry: {
         'polyfills': './src/polyfills.ts',
         'vendor': './src/vendor.ts',
-        'app': './src/main.ts'
+        'hero': './src/components/hero/example/bootstrap.ts'
     },
 
     output: {
