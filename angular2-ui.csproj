@@ -73,6 +73,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
+    <Content Include="karma.conf.js" />
     <Content Include="packages.config" />
     <Content Include="src\components\hero\example\index.html" />
     <Content Include="src\components\hero\hero.component.html">
