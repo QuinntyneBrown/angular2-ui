@@ -17,15 +17,24 @@
 
     module: {
         loaders: [
-          {
-              test: /\.ts$/,
-              loader: 'ts',
-              exclude: /node_modules/
-          },
-          {
-              test: /\.html$/,
-              loader: 'html'
-          },
+            {
+                test: /\.ts$/,
+                loader: 'ts',
+                exclude: /node_modules/
+            },
+            {
+                test: /\.html$/,
+                loader: 'html'
+            },
+            {
+                test: /\.css$/,
+                loaders: ["css"]
+            },
+            {
+                test: /\.scss$/,
+                exclude: /node_modules/,
+                loaders: ['raw-loader', 'sass-loader']
+            }
         ]
     },
     resolve: {

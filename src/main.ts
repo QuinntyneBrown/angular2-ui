@@ -1,12 +1,14 @@
-﻿//https://angular.io/docs/ts/latest/cookbook/rc4-to-rc5.html
-
-import { NgModule } from '@angular/core';
+﻿import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AppComponent } from './app/app.component';
+import { HeroComponent } from './components/hero/hero.component';
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 @NgModule({
-    declarations: [AppComponent],
+    declarations: [HeroComponent],
     imports: [BrowserModule],
-    bootstrap: [AppComponent],
+    bootstrap: [HeroComponent],
 })
 export class AppModule { }
+
+
+platformBrowserDynamic().bootstrapModule(AppModule);

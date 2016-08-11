@@ -72,11 +72,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="index.html" />
     <Content Include="packages.config" />
-    <Content Include="src\app\app.component.html" />
+    <Content Include="src\components\hero\hero.component.html" />
     <Content Include="tsconfig.json" />
     <Content Include="package.json" />
     <Content Include="webpack.config.js" />
+    <None Include="src\components\hero\hero.component.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -91,7 +93,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="src\app\app.component.ts" />
+    <TypeScriptCompile Include="src\components\hero\hero.component.ts" />
     <TypeScriptCompile Include="src\main.ts" />
     <TypeScriptCompile Include="src\polyfills.ts" />
     <TypeScriptCompile Include="src\vendor.ts" />
