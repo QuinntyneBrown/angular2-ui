@@ -1,7 +1,7 @@
 ﻿import { Component } from "@angular/core";
 
 @Component({
-    selector: "hero",
+    selector: "c-hero",
     template: require("./hero.component.html"),
     styles: [require("./hero.component.scss")]
 })

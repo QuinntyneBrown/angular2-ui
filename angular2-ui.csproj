@@ -7,8 +7,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>
-    </ProductVersion>
+    <ProductVersion></ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{4BFD814E-8F61-4214-B392-C1599652DCD7}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
@@ -23,8 +22,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
-    <NuGetPackageImportStamp>
-    </NuGetPackageImportStamp>
+    <NuGetPackageImportStamp></NuGetPackageImportStamp>
     <TypeScriptToolsVersion>1.8</TypeScriptToolsVersion>
     <TypeScriptEmitDecoratorMetadata>true</TypeScriptEmitDecoratorMetadata>
     <TypeScriptModuleKind>commonjs</TypeScriptModuleKind>
@@ -94,6 +92,14 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="src\components\gallery\gallery.component.scss" />
+    <Content Include="src\components\gallery\gallery.component.html" />
+    <Content Include="src\components\flip-card\flip-card.component.scss" />
+    <Content Include="src\components\flip-card\flip-card.component.html" />
+    <Content Include="src\components\flip-card\flip-card-front.component.scss" />
+    <Content Include="src\components\flip-card\flip-card-front.component.html" />
+    <Content Include="src\components\flip-card\flip-card-back.component.scss" />
+    <Content Include="src\components\flip-card\flip-card-back.component.html" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
@@ -111,6 +117,14 @@
     <TypeScriptCompile Include="src\main.ts" />
     <TypeScriptCompile Include="src\polyfills.ts" />
     <TypeScriptCompile Include="src\vendor.ts" />
+    <TypeScriptCompile Include="src\components\gallery\gallery.component.ts" />
+    <TypeScriptCompile Include="src\components\gallery\gallery.component.spec.ts" />
+    <TypeScriptCompile Include="src\components\flip-card\flip-card.component.ts" />
+    <TypeScriptCompile Include="src\components\flip-card\flip-card.component.spec.ts" />
+    <TypeScriptCompile Include="src\components\flip-card\flip-card-front.component.ts" />
+    <TypeScriptCompile Include="src\components\flip-card\flip-card-front.component.spec.ts" />
+    <TypeScriptCompile Include="src\components\flip-card\flip-card-back.component.ts" />
+    <TypeScriptCompile Include="src\components\flip-card\flip-card-back.component.spec.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
@@ -137,8 +151,7 @@
           <IISUrl>http://localhost:53450/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
-          <CustomServerUrl>
-          </CustomServerUrl>
+          <CustomServerUrl></CustomServerUrl>
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
